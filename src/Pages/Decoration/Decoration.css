@@ -1,0 +1,26 @@
+.Decoration {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.Decorationimg {
+    margin-top: 34px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 50vh; 
+}
+.overlaytextdec h1 {
+    color: #c09875;
+}
+.overlaytextdec h2 {
+    color: #c09875;
+}
+.overlaytextdec {
+    margin-left: 61px;
+    margin-top: 61px;
+    margin-right: 61px;
+    margin-bottom: 61px;
+}

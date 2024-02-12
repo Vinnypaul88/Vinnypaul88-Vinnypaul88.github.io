@@ -1,0 +1,23 @@
+.Contactimg {
+    margin-top: 34px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 50vh; 
+}
+.image-overlayc h1,
+.image-overlayc h2 {
+    color: #c09875;
+}
+.overlaytextc {
+    margin-top: 61px;
+    margin-left: 61px;
+    margin-bottom: 61px;
+    margin-right: 61px;
+}
+
+@media (max-width: 880px) {
+    .overlaytextc ul {
+        margin-left: -25px;
+    }
+}

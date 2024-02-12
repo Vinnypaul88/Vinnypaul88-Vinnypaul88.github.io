@@ -1,0 +1,110 @@
+.image-overlay p {
+    font-size: 20px;
+}
+
+.image-overlay {
+    text-align: center;
+}
+.image-overlayiso {
+    margin-top: 34px;
+}
+.Isolationimgiso2 {
+    display: none;
+}
+.image-overlaytextiso {
+    position: absolute;
+    top: 545px;
+    left: 38%;
+
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    z-index: 1;
+    max-width: 80%;
+    max-height: 650px;
+}
+
+@media (max-width: 880px) {
+    .Isolationimgiso2 {
+        margin-top: 34px;
+        display: block;
+        width: 100%;
+        max-height: 50vh;
+    }
+
+    .image-overlaytextiso h1 {
+        color: #c09875;
+    }
+    .image-overlaytextiso h2 {
+        color: #c09875;
+    }
+    .image-overlaytextiso ul li strong {
+        color: #c09875;
+    }
+    .Isolationimgiso {
+        display: none;
+    }
+
+    .peintureimg {
+        display: none;
+    }
+    .peintureimg3 {
+        margin-top: 34px;
+        display: block;
+        width: 100%;
+        max-height: 50vh;
+    }
+    .image-overlaytextiso {
+        font-size: 20px;
+        position: static;
+        transform: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .page-containeriso {
+        position: relative;
+        width: 100%;
+    }
+
+    .image-overlayiso p {
+        font-size: 20px;
+    }
+
+    .image-overlayiso {
+        text-align: center;
+    }
+
+    .image-overlaytextiso {
+        max-height: none;
+        font-size: 20px;
+        position: absolute;
+        top: 850px;
+        left: 38%;
+
+        /* background-color: #000000; */
+
+        /* background-color: #add9da;
+        background: linear-gradient(to bottom, #add9da, #88c9c5); */
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: #000000;
+        z-index: 1;
+        max-width: 80%;
+    }
+
+    body {
+        min-width: 287px;
+    }
+
+    .image-overlaytextiso {
+        font-size: 20px;
+        position: static;
+        transform: none;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-right: 61px;
+        margin-left: 61px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+}

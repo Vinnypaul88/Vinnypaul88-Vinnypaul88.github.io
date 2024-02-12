@@ -1,0 +1,128 @@
+.page-container {
+    position: relative;
+    width: 100%;
+}
+.peinture-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.peintureimg3 {
+    display: none;
+}
+.peintureimg {
+    width: 100%;
+    padding-top: 28px;
+    height: auto;
+}
+.image-overlay p {
+    font-size: 20px;
+}
+
+.image-overlay {
+    text-align: center;
+}
+
+.image-overlaytext {
+    position: absolute;
+    top: 850px;
+    left: 38%;
+
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    z-index: 1;
+    max-width: 80%;
+    max-height: 1300px;
+}
+
+/* body {
+    min-width: 287px;
+} */
+.peintureimg2 {
+    margin-left: 60px;
+    width: 80%;
+}
+.peintureimg {
+    display: block;
+}
+
+@media (max-width: 880px) {
+    .image-overlaytext h1 {
+        color: #c09875;
+    }
+    .image-overlaytext ul li strong {
+        color: #c09875;
+    }
+
+    .peintureimg {
+        display: none;
+    }
+    .peintureimg3 {
+        margin-top: 34px;
+        display: block;
+        width: 100%;
+        max-height: 50vh;
+    }
+    .image-overlaytext {
+        font-size: 15px;
+        position: static;
+        transform: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .page-container {
+        position: relative;
+        width: 100%;
+    }
+    .peinture-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .image-overlay p {
+        font-size: 20px;
+    }
+
+    .image-overlay {
+        text-align: center;
+    }
+
+    .image-overlaytext {
+        max-height: none;
+        font-size: 15px;
+        position: absolute;
+        top: 850px;
+        left: 38%;
+
+        /* background-color: #000000; */
+
+        /* background-color: #add9da;
+        background: linear-gradient(to bottom, #add9da, #88c9c5); */
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: #000000;
+        z-index: 1;
+        max-width: 80%;
+    }
+
+    /* body {
+        min-width: 287px;
+    } */
+    .peintureimg2 {
+        margin-left: 0%;
+        width: 80%;
+    }
+    .image-overlaytext {
+        font-size: 15px;
+        position: static;
+        transform: none;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-right: 61px;
+        margin-left: 61px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+}

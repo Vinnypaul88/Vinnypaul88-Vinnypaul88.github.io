@@ -1,0 +1,43 @@
+.image-overlayr {
+    width: 100%;
+    height: 100%;
+}
+
+.background-imager {
+    margin-top: 34px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-height: 50vh;
+}
+.overlay-textr3r h1 {
+    color: #c09875;
+}
+.overlay-textr3r h2 {
+    color: #c09875;
+}
+.overlay-textr3r {
+    font-size: 20px;
+    position: static;
+    transform: none;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-right: 61px;
+    margin-left: 61px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 880px) {
+    .overlay-textr3r {
+        font-size: 15px;
+        position: static;
+        transform: none;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-right: 61px;
+        margin-left: 61px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+}
